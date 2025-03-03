@@ -1,0 +1,17 @@
+{
+  "name": "yuzutea",
+  "version": "1.0.0",
+  "private": true,
+  "description": "",
+  "scripts": {
+    "components:build": "pnpm --filter ventus-ui build",
+    "playground:dev": "pnpm run --filter playground dev",
+    "docs:build": "pnpm run --filter docs build",
+    "docs:dev": "pnpm run --filter docs dev",
+    "components:pub": "pnpm --filter ventus-ui pub"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@10.5.2"
+}
